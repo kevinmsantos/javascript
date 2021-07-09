@@ -1,3 +1,4 @@
+/*
 var nome = "Rafael Galleani";
 var idade = 29;
 alert("Meu primeiro alerta.");
@@ -83,3 +84,31 @@ console.log(frutas);
 
 //mostrar a cor do item 3 da lista de diconarios de frutas
 console.log(frutas[2].cor);
+*/
+
+//usando condicionais
+var idade = 18;
+
+if (idade >= 18){
+    console.log("maior de idade");
+}else{
+    console.log("menor de idade");
+};
+
+//criando pop para consultar idade do usuário antes de liberar o conteúdo
+var idade = prompt("Qual sua idade?");
+
+if (idade >= 18){
+    console.log("maior de idade");
+}else{
+    console.log("menor de idade");
+};
+
+//dupla condicional
+var idade = prompt("Qual sua idade?");
+
+if (idade >= 18 && idade < 60){
+    console.log("pode acessar o conteudo");
+}else{
+    console.log("Não pode acessar o conteúdo");
+};
