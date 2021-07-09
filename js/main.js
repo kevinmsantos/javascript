@@ -111,7 +111,6 @@ if (idade >= 18 && idade < 60){
 }else{
     console.log("Não pode acessar o conteúdo");
 };
-*/
 
 //laço repetição WHILE
 var count = 0;
@@ -119,4 +118,12 @@ var count = 0;
 while (count <= 5){
     console.log(count);
     count++;
+};
+*/
+
+//laço de repetição FOR
+
+var count;
+for (count=0; count<=5; count++){
+    console.log(count);
 };
