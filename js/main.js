@@ -125,7 +125,6 @@ var count;
 for (count=0; count<=5; count++){
     console.log(count);
 };
-*/
 
 //trabalhando com data
 var data = new Date();
@@ -145,3 +144,30 @@ console.log(data.getFullYear());
 
 //mostranod a hora completa
 console.log(data.getHours()+":"+data.getMinutes()+":"+data.getSeconds());
+*/
+
+//Funções
+function soma(n1, n2){
+    return n1 + n2;
+}
+
+console.log(soma(5, 10));
+
+function setReplace(frase, palavra, novaPalavra){
+    return frase.replace(palavra, novaPalavra);
+}
+
+console.log(setReplace("Vai Japão", "Japão", "Brasil"));
+
+function validaIdade(idade){
+    var validar;
+    if(idade>=18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar;
+}
+
+var idade = prompt("Qual sua idade?");
+console.log(validaIdade(idade));
