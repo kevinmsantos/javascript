@@ -84,7 +84,6 @@ console.log(frutas);
 
 //mostrar a cor do item 3 da lista de diconarios de frutas
 console.log(frutas[2].cor);
-*/
 
 //usando condicionais
 var idade = 18;
@@ -111,4 +110,13 @@ if (idade >= 18 && idade < 60){
     console.log("pode acessar o conteudo");
 }else{
     console.log("Não pode acessar o conteúdo");
+};
+*/
+
+//laço repetição WHILE
+var count = 0;
+
+while (count <= 5){
+    console.log(count);
+    count++;
 };
