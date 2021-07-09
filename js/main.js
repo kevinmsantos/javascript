@@ -119,11 +119,29 @@ while (count <= 5){
     console.log(count);
     count++;
 };
-*/
 
 //laço de repetição FOR
-
 var count;
 for (count=0; count<=5; count++){
     console.log(count);
 };
+*/
+
+//trabalhando com data
+var data = new Date();
+
+//mostrando a data completa
+console.log(data);
+
+//mostrando o dia
+console.log(data.getDay()+1); //numero dia da semana(exemplo: 6=sexta-feira)
+console.log(data.getDate()); //numero dia do mês(exemplo: dia 9)
+
+//mostrando o mês
+console.log(data.getMonth()+1);
+
+//mostrando o ano
+console.log(data.getFullYear());
+
+//mostranod a hora completa
+console.log(data.getHours()+":"+data.getMinutes()+":"+data.getSeconds());
