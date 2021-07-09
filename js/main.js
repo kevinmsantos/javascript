@@ -144,7 +144,6 @@ console.log(data.getFullYear());
 
 //mostranod a hora completa
 console.log(data.getHours()+":"+data.getMinutes()+":"+data.getSeconds());
-*/
 
 //Funções
 function soma(n1, n2){
@@ -171,3 +170,38 @@ function validaIdade(idade){
 
 var idade = prompt("Qual sua idade?");
 console.log(validaIdade(idade));
+*/
+
+function clicou(){
+    alert("Obrigado por clicar!");
+    //imprimir na pagina a mensagem
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar!";
+}
+
+function redirecionar(){
+    //abrir link em uma nova aba
+    window.open("https://www.google.com.br");
+    //abrir link na mesma aba
+    window.location.href = "https://www.google.com.br";
+}
+
+function trocarTexto(elemento){
+    //document.getElementById("mouseMove").innerHTML = "Obrigado por passar o mouse!";
+    //alert("Obrigado por passar o mouse!");
+    elemento.innerHTML = "Obrigado por passar o mouse!";
+}
+
+function voltar(elemento){
+    //document.getElementById("mouseMove").innerHTML = "Passe o mouse aqui!";
+    elemento.innerHTML = "Passe o mouse aqui!";
+}
+
+function load(){
+    //mostrando no console que a pagina foi carregada
+    console.log("Pagina carrega!");
+}
+
+function funcaoChange(elemento){
+    //mostrando no console o valor coletado pelo elemento
+    console.log(elemento.value);
+}
